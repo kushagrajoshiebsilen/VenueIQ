@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+functions/node_modules/
+
+# Environment variables (SECURITY: never commit secrets)
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+build/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Firebase
+.firebase/
+firebase-debug.log*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Allow lock files to be tracked
+!package-lock.json
+
+# Background source file in root (already in src/assets/)
+prompt wars background.jpg
